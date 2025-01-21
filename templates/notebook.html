@@ -1,0 +1,16 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notebook Viewer</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <a href="{{ url_for('index') }}" style="text-decoration: none; font-size: 18px; margin: 10px; display: inline-block;">← Regresar</a>
+    <div style="padding: 20px;">
+        {{ notebook_html | safe }}
+    </div>
+</body>
+</html>

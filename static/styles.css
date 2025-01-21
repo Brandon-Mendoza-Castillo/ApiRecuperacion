@@ -1,0 +1,69 @@
+/* styles.css */
+body {
+    font-family: 'Roboto', sans-serif; /* Fuente moderna y legible */
+    margin: 0;
+    padding: 0;
+    background-color: #e0f7fa; /* Azul cielo claro */
+    color: #37474f; /* Contraste oscuro */
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 20px;
+    border: 2px solid #0288d1; /* Borde azul más oscuro */
+    border-radius: 10px;
+    background-color: #ffffff; /* Fondo blanco para el contenido */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    color: #01579b; /* Azul oscuro */
+    margin-bottom: 20px;
+    font-size: 2rem;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #81d4fa; /* Azul cielo medio */
+    margin: 10px 0;
+    padding: 15px;
+    border-radius: 8px;
+    border: 2px solid #0288d1; /* Borde azul más oscuro */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+li:hover {
+    transform: scale(1.02);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+a {
+    text-decoration: none;
+    color: #004d40; /* Verde oscuro */
+    font-weight: bold;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: #00796b; /* Verde más vivo */
+    text-decoration: underline;
+}
+
+.actions a.execute {
+    color: #d32f2f; /* Rojo fuerte */
+}
+
+.actions a.execute:hover {
+    color: #b71c1c; /* Rojo más oscuro */
+}
